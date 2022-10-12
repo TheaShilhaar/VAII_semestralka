@@ -1,9 +1,13 @@
 body {
-    background-image: url("img/bg01.1.jpg");
-    background-color: darkslategray;
+    background-image: url("img/bg01.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: top center;
     background-size: cover;
+    background-color: darkslategray;
     height: 100vh;
     width: 100vw;
+    overflow-x: hidden;
 }
 
 footer {
