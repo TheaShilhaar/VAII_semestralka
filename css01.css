@@ -91,8 +91,9 @@ footer {
     color: #255858;
 }
 
-.welcome-menu:hover {
+.welcome-menu:hover,.songname:hover {
     font-weight: bold;
+    color: #255858
 }
 
 .navbar,.navbar-toggler,.navbar-toggler-icon {
@@ -101,4 +102,34 @@ footer {
 
 .dropdown-item:hover {
     color: darkslategray !important;
+}
+
+h2 {
+    font-family: Georgia;
+    color: darkslategray;
+    font-size: 50px;
+    font-style: italic;
+    font-weight: bold;
+    text-align: left;
+    position: absolute;
+    left: 5vw;
+    top: 10vh;
+}
+
+.tracklist {
+    font-family: Georgia;
+    font-size: 35px;
+    font-style: italic;
+    font-weight: bold;
+    color: darkslategray;
+    text-align: left;
+    position:relative;
+    top: 15vh;
+    left: 5vw;
+}
+
+.songname {
+    text-decoration: none;
+    font-weight: normal;
+    color: darkslategray;
 }
