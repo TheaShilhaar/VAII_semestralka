@@ -6,7 +6,6 @@ body {
     width: 100vw;
 }
 
-
 footer {
     position: fixed;
     bottom: 0;
@@ -48,7 +47,7 @@ footer {
     text-align: center;
     font-size: 50px;
     font-weight: bold;
-    color: #255858;
+    color: darkslategray;
     font-family: Georgia;
 }
 
@@ -88,12 +87,12 @@ footer {
     font-size: 48px;
     font-family: Georgia;
     text-align: center;
-    color: #255858;
+    color: darkslategray;
 }
 
 .welcome-menu:hover,.songname:hover {
     font-weight: bold;
-    color: #255858
+    color: darkslategray;
 }
 
 .navbar,.navbar-toggler,.navbar-toggler-icon {
@@ -132,4 +131,14 @@ h2 {
     text-decoration: none;
     font-weight: normal;
     color: darkslategray;
+}
+
+.lyrics {
+    font-family: Georgia;
+    font-size: 20px;
+    color: darkslategray;
+    text-align: left;
+    position:relative;
+    top: 15vh;
+    left: 5vw;
 }
